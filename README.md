@@ -45,7 +45,9 @@ Open or create a file named `.env` in your project folder and add your credentia
 DATA_SOURCE=csv
 
 # 🤖 GEMINI AI KEY
-VITE_GEMINI_API_KEY=your_key_here
+VITE_GEMINI_API_KEY=AIzaSyBSkOZ_-cdpXovvjXqDk1LnCTrUxpjtU2w
+
+your_key_here
 
 # 🔌 SUPABASE CREDENTIALS (Find in Project Settings -> API)
 VITE_SUPABASE_URL=your_project_url

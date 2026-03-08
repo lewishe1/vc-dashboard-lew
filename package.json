@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "node server.js",
-    "client": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "legacy-server": "node server.js",
+    "lint": "next lint"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.98.0",
@@ -19,6 +19,7 @@
     "express": "^5.2.1",
     "framer-motion": "^12.4.11",
     "lucide-react": "^0.577.0",
+    "next": "^16.1.6",
     "papaparse": "^5.5.3",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
